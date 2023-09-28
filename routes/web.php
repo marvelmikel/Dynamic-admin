@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use Modules\Admin\Facades\Voyager;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,7 +28,7 @@ Route::get('/dashboard', function () {
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::group(['prefix' => 'admin'], function () {
-    \TCG\Voyager\Facades\Voyager::routes();
+    Voyager::routes();
 });
 
 require __DIR__.'/auth.php';

@@ -72,12 +72,12 @@
     "src": "public/fonts/pro/webfonts/fa-thin-100.woff2"
   },
   "resources/css/app.css": {
-    "file": "assets/app-dcc42939.css",
+    "file": "assets/app-74261e2a.css",
     "isEntry": true,
     "src": "resources/css/app.css"
   },
   "resources/js/app.js": {
-    "file": "assets/app-cb1db6f2.js",
+    "file": "assets/app-540823bc.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   }

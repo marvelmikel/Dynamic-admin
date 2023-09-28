@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Facade;
+use Modules\Admin\Providers\VoyagerDummyServiceProvider;
+use Modules\Admin\VoyagerServiceProvider;
 
 return [
 
@@ -156,6 +158,7 @@ return [
 
     'providers' => [
 
+        // VoyagerServiceProvider::class,
         /*
          * Laravel Framework Service Providers...
          */
@@ -185,6 +188,10 @@ return [
         /*
          * Package Service Providers...
          */
+
+        VoyagerServiceProvider::class,
+        VoyagerDummyServiceProvider::class,
+       
 
         /*
          * Application Service Providers...

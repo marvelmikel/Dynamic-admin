@@ -27,7 +27,8 @@ return [
     */
 
     'controllers' => [
-        'namespace' => 'TCG\\Voyager\\Http\\Controllers',
+        // 'namespace' => 'Modules\\Admin\\Http\\Controllers',
+        'namespace' => 'Modules\\Admin\\Http\\Controllers',
     ],
 
     /*
@@ -42,7 +43,7 @@ return [
     */
 
     'models' => [
-        //'namespace' => 'App\\Models\\',
+        // 'namespace' => 'Modules\\Admin\\Models',
     ],
 
     /*
@@ -144,12 +145,12 @@ return [
         ],
 
         'widgets' => [
-            'TCG\\Voyager\\Widgets\\UserDimmer',
-            // 'TCG\\Voyager\\Widgets\\PostDimmer',
-            'TCG\\Voyager\\Widgets\\PageDimmer',
-            // 'TCG\\Voyager\\Widgets\\PlansDimmer',
-            // 'TCG\\Voyager\\Widgets\\PlansDimmer',
-            // 'TCG\\Voyager\\Widgets\\PlansDimmer',
+            'Modules\\Admin\\Widgets\\UserDimmer',
+            // 'Modules\\Admin\\Widgets\\PostDimmer',
+            'Modules\\Admin\\Widgets\\PageDimmer',
+            // 'Modules\\Admin\\Widgets\\PlansDimmer',
+            // 'Modules\\Admin\\Widgets\\PlansDimmer',
+            // 'Modules\\Admin\\Widgets\\PlansDimmer',
         ],
 
     ],
