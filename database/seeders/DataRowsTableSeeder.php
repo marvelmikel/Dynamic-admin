@@ -3,8 +3,8 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use TCG\Voyager\Models\DataRow;
-use TCG\Voyager\Models\DataType;
+use Modules\Admin\Models\DataRow;
+use Modules\Admin\Models\DataType;
 
 class DataRowsTableSeeder extends Seeder
 {
@@ -149,7 +149,7 @@ class DataRowsTableSeeder extends Seeder
                 'add'          => 1,
                 'delete'       => 0,
                 'details'      => [
-                    'model'       => 'TCG\\Voyager\\Models\\Role',
+                    'model'       => 'Modules\\Admin\\Models\\Role',
                     'table'       => 'roles',
                     'type'        => 'belongsTo',
                     'column'      => 'role_id',
@@ -174,7 +174,7 @@ class DataRowsTableSeeder extends Seeder
                 'add'          => 1,
                 'delete'       => 0,
                 'details'      => [
-                    'model'       => 'TCG\\Voyager\\Models\\Role',
+                    'model'       => 'Modules\\Admin\\Models\\Role',
                     'table'       => 'roles',
                     'type'        => 'belongsToMany',
                     'column'      => 'id',

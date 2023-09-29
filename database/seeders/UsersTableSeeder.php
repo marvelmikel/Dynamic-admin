@@ -4,8 +4,8 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Str;
-use TCG\Voyager\Models\Role;
-use TCG\Voyager\Models\User;
+use Modules\Admin\Models\Role;
+use Modules\Admin\Models\User;
 
 class UsersTableSeeder extends Seeder
 {

@@ -3,11 +3,11 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use TCG\Voyager\Models\Category;
-use TCG\Voyager\Models\DataType;
-use TCG\Voyager\Models\MenuItem;
-use TCG\Voyager\Models\Page;
-use TCG\Voyager\Models\Translation;
+use Modules\Admin\Models\Category;
+use Modules\Admin\Models\DataType;
+use Modules\Admin\Models\MenuItem;
+use Modules\Admin\Models\Page;
+use Modules\Admin\Models\Translation;
 
 class TranslationsTableSeeder extends Seeder
 {
